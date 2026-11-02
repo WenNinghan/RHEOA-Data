@@ -1,0 +1,3 @@
+problem,runs,solutions_per_run,verified_solution_records,feasible_fraction,required_pressure_m,min_observed_pressure_m,max_observed_pressure_m,example_seed,selection
+Net3,20,36,720,1.0,20,26.334512226769725,29.81257765444633,1004,HV closest to case median; seed breaks ties
+Hanoi,20,36,720,1.0,30,30.00638198852539,49.71183776855469,5008,HV closest to case median; seed breaks ties

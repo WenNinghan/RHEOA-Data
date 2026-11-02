@@ -1,0 +1,62 @@
+{
+  "checks": {
+    "Supporting_Data_S13_network_runs.csv": {
+      "rows": 440,
+      "matches_formal_source_records": true
+    },
+    "Supporting_Data_S14_network_tests.csv": {
+      "rows": 38,
+      "matches_formal_source_records": true
+    },
+    "Supporting_Data_S15_network_replay.csv": {
+      "rows": 15840,
+      "matches_formal_source_records": true
+    },
+    "Supporting_Data_S3_city_runs.csv": {
+      "rows": 1120,
+      "matches_formal_source_records": true
+    },
+    "Supporting_Data_S4_city_tests.csv": {
+      "rows": 234,
+      "matches_formal_source_records": true
+    },
+    "Supporting_Data_S5_control_runs.csv": {
+      "rows": 560,
+      "matches_formal_source_records": true
+    },
+    "Supporting_Data_S6_control_tests.csv": {
+      "rows": 24,
+      "matches_formal_source_records": true
+    },
+    "Supporting_Data_S7_checkpoints.csv": {
+      "rows": 2240,
+      "matches_formal_source_records": true
+    },
+    "Supporting_Data_S8_inner_diagnostics.csv": {
+      "rows": 280,
+      "matches_formal_source_records": true
+    },
+    "inputs": {
+      "annual_and_quarterly_sums_consistent": true,
+      "formal_source_paths_exist": true,
+      "case_count": 4
+    },
+    "published_city_tables": {
+      "quality_cells_checked": 112,
+      "means_sds_valid_n_and_full_feasibility_match": true
+    },
+    "rheoa": {
+      "runs": 80,
+      "all_feasible": true,
+      "all_FE_8000": true
+    }
+  },
+  "passed": true,
+  "scope": "Fresh extraction from existing formal allocation records; recomputed network front metrics and registered tests from saved JSON; checked existing cache-disabled replay records; no optimization or new hydraulic simulation.",
+  "not_yet_a_public_runnable_release": [
+    "Frozen executable code and dependency versions must accompany the data.",
+    "Original public-source records, derived proxies and scenario assumptions must remain distinguished.",
+    "Redistribution rights for third-party inputs and full run scripts need author review.",
+    "No GitHub repository has been published by this operation."
+  ]
+}

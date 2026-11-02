@@ -1,0 +1,187 @@
+{
+  "allocation": {
+    "runs": 1120,
+    "cases": 4,
+    "methods": 14,
+    "runs_per_case_method": 20,
+    "rheoa_all_feasible_runs": 80,
+    "rheoa_FE_per_run": 8000,
+    "no_front_metrics_preserved_as_missing": true
+  },
+  "table_S21": {
+    "rows_checked": 56,
+    "means_SDs_valid_counts_and_fully_feasible_counts_match": true
+  },
+  "main_claims": [
+    {
+      "case": "Wuhan 2024",
+      "comparator": "MOEA/D-DAE",
+      "HV_gain_percent": 46.27940219153448,
+      "IGD_plus_reduction_percent": 69.69842353439975,
+      "paired_wins_both_metrics": 20
+    },
+    {
+      "case": "Wuhan 2025",
+      "comparator": "CTAEA",
+      "HV_gain_percent": 23.686170240596404,
+      "IGD_plus_reduction_percent": 63.966140101843514,
+      "paired_wins_both_metrics": 20
+    },
+    {
+      "case": "Changsha 2024",
+      "comparator": "CMOEA-MS",
+      "HV_gain_percent": 25.09936312324279,
+      "IGD_plus_reduction_percent": 62.28215127909048,
+      "paired_wins_both_metrics": 20
+    },
+    {
+      "case": "Chongqing 2024",
+      "comparator": "NSGA-II",
+      "HV_gain_percent": 24.48330758609294,
+      "IGD_plus_reduction_percent": 70.22608333193797,
+      "paired_wins_both_metrics": 20
+    }
+  ],
+  "controls": {
+    "final_runs": 280,
+    "all_feasible": true,
+    "bootstrap_mean_effects_checked": 24
+  },
+  "representatives": {
+    "all_records": 480,
+    "rheoa_records": 160,
+    "quarter_region_records": 5760,
+    "source_fractions_sum_to_one": true,
+    "rheoa_means": [
+      {
+        "case_id": 1,
+        "selection": "balanced",
+        "cost_index": 41.48048322716038,
+        "ecological_loss": 1.531528167566346,
+        "reliability": 0.9010372536878343,
+        "max_quarter_fairness_gap": 0.18287933036590412
+      },
+      {
+        "case_id": 1,
+        "selection": "endpoint_1",
+        "cost_index": 42.175396452342184,
+        "ecological_loss": 1.7023082870338198,
+        "reliability": 0.9048779285928676,
+        "max_quarter_fairness_gap": 0.18590536177103717
+      },
+      {
+        "case_id": 1,
+        "selection": "endpoint_2",
+        "cost_index": 41.14956032522176,
+        "ecological_loss": 1.7966321367088862,
+        "reliability": 0.9004601255253879,
+        "max_quarter_fairness_gap": 0.19416089335348602
+      },
+      {
+        "case_id": 1,
+        "selection": "endpoint_3",
+        "cost_index": 41.40370582108606,
+        "ecological_loss": 1.2960859072317792,
+        "reliability": 0.9018304305583242,
+        "max_quarter_fairness_gap": 0.20083540744441103
+      },
+      {
+        "case_id": 2,
+        "selection": "balanced",
+        "cost_index": 40.141280082721465,
+        "ecological_loss": 1.0250229556521446,
+        "reliability": 0.9171652266552526,
+        "max_quarter_fairness_gap": 0.1885821419025272
+      },
+      {
+        "case_id": 2,
+        "selection": "endpoint_1",
+        "cost_index": 41.538146336062255,
+        "ecological_loss": 1.0752298557625024,
+        "reliability": 0.9303208399214287,
+        "max_quarter_fairness_gap": 0.20608992492864578
+      },
+      {
+        "case_id": 2,
+        "selection": "endpoint_2",
+        "cost_index": 39.32929575442812,
+        "ecological_loss": 1.1846892857083582,
+        "reliability": 0.9016399198116891,
+        "max_quarter_fairness_gap": 0.18018209107686936
+      },
+      {
+        "case_id": 2,
+        "selection": "endpoint_3",
+        "cost_index": 40.48454370837739,
+        "ecological_loss": 0.9215903071483392,
+        "reliability": 0.9238708693689803,
+        "max_quarter_fairness_gap": 0.20533762350588147
+      }
+    ]
+  },
+  "networks": {
+    "runs": 440,
+    "saved_replay_records": 15840,
+    "rheoa_figure_records_verified_against_formal_JSON": 1440,
+    "no_new_optimization_or_hydraulic_simulation": true
+  },
+  "main_SI_references": {
+    "first_appearance_sequences": {
+      "Text": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "Table": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "Fig": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "all_current_targets_cited_and_ordered": true
+  },
+  "scope": "Recomputed saved-result summaries and checked current cross-references. No new optimization or hydraulic replay. Statistical-family definitions retained.",
+  "passed": true
+}
