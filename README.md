@@ -1,6 +1,8 @@
 # RHEOA Supporting Data
 
-Version: `data-20261102`. This is a private, version-controlled data archive during manuscript revision. Its existence does not imply public access. The accompanying ZIP can be shared directly with an authorized reviewer without granting GitHub access.
+Version: `data-20261108`. This is a private, version-controlled data archive during manuscript revision. Its existence does not imply public access. The accompanying ZIP can be shared directly with an authorized reviewer without granting GitHub access.
+
+The 2026-11-08 revision updates the manuscript-to-data map to Tables S1-S33 and Texts S1-S9. Numerical data and experimental verification records are unchanged from `data-20261102`.
 
 The archive supports the study of repair-guided human evolutionary optimization (RHEOA) for quarterly, multi-source urban water allocation, with problem-specific Net3 pump-scheduling and Hanoi pipe-sizing extensions. It contains saved numerical results and parameter records, not an executable optimization-software release. No new optimization or hydraulic simulation was performed to prepare this release.
 
