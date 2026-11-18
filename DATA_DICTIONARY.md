@@ -43,10 +43,10 @@ S9/S10 volumes, shortage volumes and demands use **10^8 m^3**. Source fractions 
 
 S12 `reliability_upper_bound` is an optimistic mathematical bound, not an observed allocation result. Its baseline records and pressure records must be distinguished by `scenario`, `case_id` and `include_fairness`.
 
-## Network records and Fig. 7
+## Network records and Fig. 8
 
 S13-S15 contain three separate batches: `Net3`, `Hanoi original` and `Hanoi centered`. `arm` identifies a method within a batch. `configuration` gives the detailed configuration. Pressures are in metres; `cv` fields are normalized summed residuals under the problem-specific tolerances. `requests` may exceed `simulations` because cached requests do not consume a new hydraulic solve. `official_igd_plus` is an additional published-front readout where available and is not the same as the empirical leave-one-seed-out IGD+ column.
 
-In `Fig7_solution_records.csv`, `objective_1` is energy in **kWh** for Net3 (divide by 1,000 for the MWh axis), and construction cost in **million USD** under the benchmark coefficient convention for Hanoi. `objective_2` is normalized pressure-service loss for Net3 and resilience loss for Hanoi. `minimum_pressure_m` is the minimum pressure for that solution, and `required_pressure_m` is 20 m or 30 m for the respective benchmark. The Net3 preferred service pressure is 35 m and is distinct from its 20 m feasibility limit.
+The `Fig7_*.csv` filenames preserve the numbering used when the water-network records were first exported. In `Fig7_solution_records.csv`, `objective_1` is energy in **kWh** for Net3 (divide by 1,000 for the MWh axis), and construction cost in **million USD** under the benchmark coefficient convention for Hanoi. `objective_2` is normalized pressure-service loss for Net3 and resilience loss for Hanoi. `minimum_pressure_m` is the minimum pressure for that solution, and `required_pressure_m` is 20 m or 30 m for the respective benchmark. The Net3 preferred service pressure is 35 m and is distinct from its 20 m feasibility limit.
 
-Fig. 7 pools 20 runs of 36 solutions per problem. The example run is the run with HV closest to the case median, with the seed breaking ties. `point` is the one-based solution index within a saved run; `source_file` is a filename, not a public download URL. The plotted solutions are not a single pooled non-dominated front and are not 720 independent runs.
+Fig. 8 pools 20 runs of 36 solutions per problem. The example run is the run with HV closest to the case median, with the seed breaking ties. `point` is the one-based solution index within a saved run; `source_file` is a filename, not a public download URL. The plotted solutions are not a single pooled non-dominated front and are not 720 independent runs.

@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-18",
+  "scope": "Verification of saved experiment outputs and figures. No new optimization or hydraulic simulations were performed.",
+  "input_and_result_files": {
+    "S1": "matched freshly extracted JSON values",
+    "S2": "matched freshly extracted JSON values",
+    "S3": 1120,
+    "S4": 234,
+    "S5": 560,
+    "S6": 24,
+    "S7": 2240,
+    "S8": 280,
+    "S9": 480,
+    "S10": 5760,
+    "S11": "matched freshly extracted JSON values",
+    "S12": 12,
+    "S13": 440,
+    "S14": 38,
+    "S15": 15840,
+    "S16": 24,
+    "S17": {
+      "historical_tables": 91,
+      "terminal_caps": [
+        13,
+        21,
+        21
+      ]
+    }
+  },
+  "control_final_runs": 280,
+  "allocation_runs_with_no_feasible_front_and_missing_quality_indicators": 386,
+  "rheoa_all_feasible_city_runs": 80,
+  "hv_gain_and_igd_plus_reduction_percent": {
+    "Wuhan 2024": [
+      46.279,
+      69.698
+    ],
+    "Wuhan 2025": [
+      23.686,
+      63.966
+    ],
+    "Changsha 2024": [
+      25.099,
+      62.282
+    ],
+    "Chongqing 2024": [
+      24.483,
+      70.226
+    ]
+  },
+  "bootstrap_resamples_per_effect": 10000,
+  "network_figure_records_compared_to_formal_solutions": 1440,
+  "minimum_pressure_m": {
+    "Hanoi": 30.00638198852539,
+    "Net3": 26.334512226769725
+  }
+}

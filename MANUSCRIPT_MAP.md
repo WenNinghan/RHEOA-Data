@@ -1,29 +1,30 @@
 # Manuscript to data map
 
-This map follows the fourth-round revision reviewed on 2026-11-08, not the historical table labels retained inside S17.
+The labels below follow the manuscript and supporting information revised on 2026-11-18. S17 also contains older table labels for tracing records to their source.
 
 | Manuscript element | Supporting data |
 |---|---|
 | Fig. 1; Texts S1-S3 | S1 inputs, S2 factor structure; conceptual artwork is not experimental data |
-| Fig. 2; Text S4 | S17 settings and archived operator records; complete executable code is outside this data release |
-| Fig. 3; Table 1; Section 3.1 | S3 city runs and S4 statistical tests |
-| Fig. 4; Section 3.2 | S5 final-stage controls, S6 tests and S16 effect intervals |
-| Fig. 5; Section 3.3 | S3/S4, filtered to Changsha and Chongqing |
-| Fig. 6; Table 2; Section 3.4 | S9/S10, H-Score and the specified selection rule |
-| Fig. 7; Section 3.5 | `figure_data/` point records and example-run summary; S13-S15 for network metrics, comparisons and replay |
+| Fig. 2 and Text S2 | S2 factor classification, driving power and dependence |
+| Fig. 3; Text S4 | S17 settings and archived operator records; complete executable code is outside this data release |
+| Fig. 4; Table 1; Section 3.1 | S3 city runs and S4 statistical tests |
+| Fig. 5; Section 3.2 | S5 final-stage controls, S6 tests and S16 effect intervals |
+| Fig. 6; Section 3.3 | S3/S4, filtered to Changsha and Chongqing |
+| Fig. 7; Table 2; Section 3.4 | S9/S10, H-Score and the specified selection rule |
+| Fig. 8; Section 3.5 | `figure_data/Fig7_*.csv` point records and example-run summary (original filenames); S13-S15 for network metrics, comparisons and replay |
 | Tables S1-S7 | S1 and the preserved detailed records in S17 |
-| Tables S8-S10; Figs. S1-S2 | S2 factor records and structural analyses |
+| Tables S8-S10; Fig. S1 | S2 factor records and structural analyses |
 | Tables S11-S17 | S17 complete settings; source identifiers and published benchmark references remain in the SI |
 | Table S18 | S17 archived normalization bounds |
 | Table S19 | S3 allocation evaluation counts and runtimes |
 | Table S20 | S4/S6 allocation and component-test comparison families |
 | Tables S21-S22 | S3/S4, filtered to Wuhan, for performance and paired tests |
-| Tables S23-S26; Figs. S3-S4 | S5-S8 and S16 shared-interface results and diagnostics |
+| Tables S23-S26; Figs. S2-S3 | S5-S8 and S16 shared-interface results and diagnostics |
 | Tables S27-S28 | S3/S4, filtered to Changsha and Chongqing, for performance and paired tests |
 | Table S29; Text S7 | S9 representative summaries; S10 quarter-region detail |
-| Table S30; Figs. S5-S6; Text S9 | S11 historical sensitivity and aggregation records |
+| Table S30; Figs. S4-S5; Text S9 | S11 historical sensitivity and aggregation records |
 | Pressure-bound analysis in Text S9 | S12 optimistic bounds |
 | Table S31 | S15 saved hydraulic replay |
-| Tables S32-S33; Fig. S7; Text S6 | S13/S14 network comparisons and paired tests |
+| Tables S32-S33; Fig. S6; Text S6 | S13/S14 network comparisons and paired tests |
 
-The Table S1-S33 sequence and Text S1-S9 sequence are cited in order of first appearance in the main manuscript. Text S8 summarizes the allocation comparison and controlled experiments, supported by S3-S8 and S16. Historical record labels within S17 are archival metadata and are not current cross-reference targets.
+Text S8 summarizes the allocation comparison and controlled experiments, supported by S3-S8 and S16. Historical record labels within S17 are archival metadata and are not current cross-reference targets.

@@ -41452,7 +41452,8 @@
         "outer_population": 36,
         "neighborhood": 8,
         "inner_population": 20,
-        "pbi_theta": 3.0
+        "pbi_theta": 3.0,
+        "terminal_refinement_batch_cap": 13
       },
       {
         "case": "Changsha 2024",
@@ -41460,7 +41461,8 @@
         "outer_population": 60,
         "neighborhood": 9,
         "inner_population": 24,
-        "pbi_theta": 4.0
+        "pbi_theta": 4.0,
+        "terminal_refinement_batch_cap": 21
       },
       {
         "case": "Chongqing 2024",
@@ -41468,9 +41470,11 @@
         "outer_population": 60,
         "neighborhood": 9,
         "inner_population": 24,
-        "pbi_theta": 3.2
+        "pbi_theta": 3.2,
+        "terminal_refinement_batch_cap": 21
       }
     ],
+    "terminal_refinement_batch_rule": "For each allocation case, the terminal refinement batch size is the smaller of the remaining evaluation budget and the case-specific cap. The cap is max(4, min(N, round(0.35 * N))), where N is the outer population size. The value 13 in the archived table applies to Wuhan. The batch calculation appears in CFR_HEOA_Many_RLTL.m in each frozen source directory listed below.",
     "source_files": [
       "06_实验与结果/正式结果/共同公平阈值021_十四方法比较_20260923/wuhan_common_fairness_20260923_002205/source_snapshot/HEOA_Many_RLTL.m",
       "06_实验与结果/正式结果/长沙2024_城市参数化与公平选参_20260926/evaluation/source_snapshot/HEOA_Many_RLTL.m",

@@ -2,8 +2,8 @@ cff-version: 1.2.0
 message: "Please cite the RHEOA study and identify this supporting-data version when using these data."
 type: dataset
 title: "RHEOA Supporting Data for Urban Water Allocation and Water-Network Extensions"
-version: "data-20261108"
-date-released: 2026-11-08
+version: "data-20261118"
+date-released: 2026-11-18
 authors:
   - family-names: Wen
     given-names: Ninghan

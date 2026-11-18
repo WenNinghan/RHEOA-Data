@@ -1,8 +1,8 @@
 # RHEOA Supporting Data
 
-Version: `data-20261108`. This is a private, version-controlled data archive during manuscript revision. Its existence does not imply public access. The accompanying ZIP can be shared directly with an authorized reviewer without granting GitHub access.
+Version: `data-20261118`. This is a private, version-controlled data archive during manuscript revision. Its existence does not imply public access. The accompanying ZIP can be shared directly with an authorized reviewer without granting GitHub access.
 
-The 2026-11-08 revision updates the manuscript-to-data map to Tables S1-S33 and Texts S1-S9. Numerical data and experimental verification records are unchanged from `data-20261102`.
+The 2026-11-18 revision maps the data to main Figs. 1–8 and supplementary Figs. S1–S6. S17 records terminal-refinement batch caps of 13 for Wuhan and 21 for Changsha and Chongqing. Tables S1–S33 and Texts S1–S9 retain their numbering.
 
 The archive supports the study of repair-guided human evolutionary optimization (RHEOA) for quarterly, multi-source urban water allocation, with problem-specific Net3 pump-scheduling and Hanoi pipe-sizing extensions. It contains saved numerical results and parameter records, not an executable optimization-software release. No new optimization or hydraulic simulation was performed to prepare this release.
 
@@ -25,18 +25,19 @@ The archive supports the study of repair-guided human evolutionary optimization 
 | `data/Supporting_Data_S13_network_runs.csv` | 440 formal network runs across three separate comparison batches |
 | `data/Supporting_Data_S14_network_tests.csv` | 38 paired network comparisons |
 | `data/Supporting_Data_S15_network_replay.csv` | 15,840 previously saved cache-disabled replay records |
-| `data/Supporting_Data_S16_component_effect_intervals.csv` | 24 paired-bootstrap effect estimates for Fig. 4 |
+| `data/Supporting_Data_S16_component_effect_intervals.csv` | 24 paired-bootstrap effect estimates for Fig. 5b |
 | `data/Supporting_Data_S17_complete_settings_and_table_records.json` | Complete settings and archived table records; historical table labels are retained as provenance |
 | `figure_data/Fig7_solution_records.csv` | 1,440 plotted RHEOA solutions, checked against the formal run JSON files |
 | `figure_data/Fig7_feasibility_summary.csv` | Per-network pressure limits and example-run selections |
 | `DATA_DICTIONARY.md` | Units, identifiers, stages, missing values and configuration mappings |
 | `MANUSCRIPT_MAP.md` | Current figure/table to data-file map |
-| `audit/verification_20261102.json` | Checks performed for this data release |
+| `audit/verification_20261118.json` | Current comparison with the formal inputs, outputs, effect intervals, archive tables and network front records |
+| `audit/verification_20261102.json` | Verification results recorded on 2026-11-02 |
 | `audit/verification_20261027.json` | Historical verification record, preserved with its original date and scope |
 | `manifest.csv` | File sizes and SHA-256 checksums for the data and audit files |
 | `RHEOA_Supporting_Data.zip` | Portable copy of the data, documentation and verification records |
 
-All original Supporting Data S1-S17 numerical files are preserved byte-for-byte. The added Fig. 7 records were exported previously from the saved formal results and were checked again for this release. Historical verification statements describe their recorded date, not the current repository-access status.
+S1–S16 and the numerical figure records match the previous release byte for byte. The water-network plots in Fig. 8 use the original `Fig7_*.csv` filenames. The November 18 checks compare those 1,440 plotted solutions with the saved formal fronts. S17 retains the original table records and separately identifies the batch cap for each allocation case.
 
 ## Correct interpretation
 
